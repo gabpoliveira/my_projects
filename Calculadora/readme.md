@@ -33,3 +33,8 @@ Calculadora web funcional e responsiva desenvolvida com HTML, CSS e JavaScript v
 - **Limitação:** Máximo de caracteres para evitar overflow
 - **Formatação:** Números decimais suportados
 - **Estados:** Mostra "0" ao ligar, vazio ao desligar
+
+
+
+## 🌐 Deploy
+**[🚀 Ver projeto funcionando](https://calculator-eta-seven-17.vercel.app/)**
