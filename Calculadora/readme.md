@@ -12,8 +12,8 @@ Calculadora web funcional e responsiva desenvolvida com HTML, CSS e JavaScript v
 - ✅ Suporte a números decimais
 - ✅ Função ligar/desligar (ON/OFF)
 - ✅ Interface visual atrativa
-- ✅ Design totalmente responsivo
-- ✅ Fonte digital personalizada
+- ✅ Responsividade
+- ✅ Fonte personalizada
 - ✅ Tratamento de erros (divisão por zero)
 - ✅ Limitação de caracteres no display
 
