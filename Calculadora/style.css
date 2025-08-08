@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'calculator'; 
+    src: url('fonts/digital-dream/DIGITALDREAM.ttf');
+}
+
+body {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    background-color: bisque;
+    font-family: calculator;
+}
+
+main {
+ padding-top: 50px;
+}
+
+.calculator {
+    border-color: black;   
+    border: 2px solid;
+    border-radius: 20px;
+    background-color: azure;
+    box-shadow: 8px 8px rgb(110, 138, 138);
+}
+
+.elements {
+    padding: 15px 15px 30px 15px;
+
+}
+
+.display {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 335.117px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    border-color: black;   
+    border: 2px solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.display_text {
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+    max-width: 335.117px;
+}
+
+.buttons{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center; 
+    gap: 4px; 
+}
+
+.column1, .column2, .column3, .column4 {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+}
+
+.column4 button, #sum_button{
+    background-color: gold;
+}
+
+button {
+    margin: 5px;
+    width: 70px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.btn{
+    font-size: 20px;
+    box-shadow: 4px 4px black;
+}
+
+.onButton {
+    background-color: greenyellow;
+    font-weight: bold;
+    box-shadow: 4px 4px rgb(4, 109, 4);
+}
+
+.offButton {
+    background-color: rgb(224, 73, 73);
+    font-weight: bold;
+    box-shadow: 4px 4px rgb(150, 4, 4);
+}
+
+#result_button {
+    height: 120px;
+
+}
+
+@media (max-width: 500px) {
+    main{
+        padding-top: 20px;
+    }
+    .buttons {
+        gap: 2px;
+    }
+    button {
+        width: clamp(40px, 18vw, 60px);
+        height: clamp(35px, 12vw, 45px);
+        font-size: clamp(14px, 5vw, 18px);
+    }
+    .display_text {
+        font-size: clamp(24px, 8vw, 40px);
+    }
+}

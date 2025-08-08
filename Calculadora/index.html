@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="calculator">
+            <div class="elements">
+                <div class="display"><p class="display_text"></p></div>
+                <div class="buttons">
+                    <div class="column1">
+                        <button class="onButton" onclick="turnOn()">ON</button>
+                        <button class="btn" onClick="insert('7')">7</button>
+                        <button class="btn" onClick="insert('4')">4</button>
+                        <button class="btn" onClick="insert('1')">1</button>
+                        <button class="btn" onClick="insert('.')">.</button>
+                    </div>
+
+                    <div class="column2">
+                        <button class="offButton" onclick="turnOff()">OFF</button>
+                        <button class="btn" onClick="insert('8')">8</button>
+                        <button class="btn" onClick="insert('5')">5</button>
+                        <button class="btn" onClick="insert('2')">2</button>
+                        <button class="btn" onClick="insert('0')">0</button>
+                    </div>
+
+                    <div class="column3">
+                        <button class="btn" id="sum_button" onClick="insert('+')">+</button>
+                        <button class="btn" onClick="insert('9')">9</button>
+                        <button class="btn" onClick="insert('6')">6</button>
+                        <button class="btn" onClick="insert('3')">3</button>
+                        <button class="btn" onClick="insert('%')">%</button>
+                    </div>
+
+                    <div class="column4">
+                        <button class="btn" onClick="insert('-')">-</button>
+                        <button class="btn" onClick="insert('*')">x</button>
+                        <button class="btn" onClick="insert('/')">÷</button>
+                        <button class="btn" id="result_button" onClick="calculate()">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
